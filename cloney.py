@@ -11,7 +11,7 @@ url = input("Name of site to clone: ")
 port = 8000
 
 #------------------------------------------------------------------------
-class Phish:
+class Whatup:
 
 	def hosts(self):
 
@@ -45,7 +45,7 @@ class Phish:
 
 #------------------------------------------------------------------------
 if __name__ == '__main__':
-	p = Phish()
+	p = Whatup()
 	p.hosts()
 	p.clone()
 
