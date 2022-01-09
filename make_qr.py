@@ -8,7 +8,7 @@ import qrcode
 if len(sys.argv) <= 2:
 	print("====================================================")
 	print("Create a QR-Code leading to a link as .png:")
-	print((sys.argv[0]) +" <link> <outputfile>")
+	print("python3 "(sys.argv[0]) +" <link> <outputfile>")
 	print("====================================================")
 	sys.exit(0)
 
